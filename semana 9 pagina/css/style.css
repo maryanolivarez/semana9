@@ -10,7 +10,9 @@ header {
 .name {
 	height: 20%;
 	width: 20%;
-	margin: 3%;
+	margin-left: 8%;
+	margin-bottom: 3.5%;
+	margin-top: 2%;
 }
 
 .ad {
@@ -22,17 +24,22 @@ header {
 }
 
 .ad img {
-	width: 100%;
-	height: 100%;
+	width: 90%;
+	height: 90%;
+	margin-top: -2%;
 }
 
 nav {
-	margin-left: 35%;
+	margin-left: 30%;
 }
 
 nav li {
 	display: inline-flex;
-	margin-top: 30%;
+	margin-top: 20%;
+}
+
+li {
+	margin-right: 15px;
 }
 
 ul {
@@ -48,23 +55,24 @@ ul a {
 }
 
 #section {
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 }
 
 article {
-	padding: 60px;
+	padding: 30px;
 	text-align: center;
 }
 
 .sect1, .sect2, .sect3 {
 	display: flex;
+	justify-content: center;
 	flex-direction: row;
 }
 
 .art1, .art2, .art3, .art4, .art5, .art6 {
-	width: 495px;
-	height: 385px;
+	width: 455px;
+	height: 340px;
 	border: 5px solid red;
 }
 
